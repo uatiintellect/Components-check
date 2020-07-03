@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screen-3</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="w-full h-16 flex items-center lg:items-stretch justify-between bg-white shadow relative z-10">
+        <div class="pl-6 w-64 h-full flex items-center lg:border-r">
+            <svg id="logo" enable-background="new 0 0 300 300" height="44" viewBox="0 0 300 300" width="43" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g>
+                    <path fill="#5F7DF2" d="m234.735 35.532c-8.822 0-16 7.178-16 16s7.178 16 16 16 16-7.178 16-16-7.178-16-16-16zm0 24c-4.412 0-8-3.588-8-8s3.588-8 8-8 8 3.588 8 8-3.588 8-8 8zm-62.529-14c0-2.502 2.028-4.53 4.53-4.53s4.53 2.028 4.53 4.53c0 2.501-2.028 4.529-4.53 4.529s-4.53-2.027-4.53-4.529zm89.059 60c0 2.501-2.028 4.529-4.53 4.529s-4.53-2.028-4.53-4.529c0-2.502 2.028-4.53 4.53-4.53s4.53 2.029 4.53 4.53zm-40.522-5.459-88-51.064c-1.242-.723-2.773-.723-4.016 0l-88 51.064c-1.232.715-1.992 2.033-1.992 3.459v104c0 1.404.736 2.705 1.938 3.428l88 52.936c.635.381 1.35.572 2.062.572s1.428-.191 2.062-.572l88-52.936c1.201-.723 1.938-2.023 1.938-3.428v-104c0-1.426-.76-2.744-1.992-3.459zm-90.008-42.98 80.085 46.47-52.95 31.289-23.135-13.607v-21.713c0-2.209-1.791-4-4-4s-4 1.791-4 4v21.713l-26.027 15.309c-1.223.719-1.973 2.029-1.973 3.447v29.795l-52 30.727v-94.688zm0 198.707-80.189-48.237 51.467-30.412 24.723 14.539v19.842c0 2.209 1.791 4 4 4s4-1.791 4-4v-19.842l26.027-15.307c1.223-.719 1.973-2.029 1.973-3.447v-31.667l52-30.728v94.729z" />
+                </g>
+            </svg>
+        </div>
+        <div class="hidden lg:flex w-4/5 pr-6">
+            <div class="w-1/2 h-full hidden lg:flex items-center pl-6 pr-24">
+                <div class="relative w-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-500 absolute ml-4 inset-0 m-auto icon icon-tabler icon-tabler-search" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" />
+                        <circle cx="10" cy="10" r="7" />
+                        <line x1="21" y1="21" x2="15" y2="15" />
+                    </svg>
+                    <input class="border border-gray-100 focus:outline-none focus:border-indigo-500 rounded w-full text-sm text-gray-500 bg-gray-100 pl-12 py-2" type="text" placeholder="Search" />
+                </div>
+            </div>
+            <div class="w-1/2 hidden lg:flex">
+                <div class="w-full flex items-center pl-8 justify-end">
+                    <div class="h-full w-20 flex items-center justify-center border-r border-l">
+                        <div class="relative">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer text-gray-600 icon icon-tabler icon-tabler-bell" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z"></path>
+                                <path d="M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6"></path>
+                                <path d="M9 17v1a3 3 0 0 0 6 0v-1"></path>
+                            </svg>
+                            <div class="w-2 h-2 rounded-full bg-red-400 border border-white absolute inset-0 mt-1 mr-1 m-auto"></div>
+                        </div>
+                    </div>
+                    <div class="h-full w-20 flex items-center justify-center border-r mr-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer text-gray-600 icon icon-tabler icon-tabler-messages" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" />
+                            <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
+                            <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
+                        </svg>
+                    </div>
+                    <div class="rounded-full relative">
+                        <img class="rounded-full" src="https://images.unsplash.com/photo-1586548634342-04801afc8b13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=36&q=80" alt="avatar" />
+                        <div class="w-2 h-2 rounded-full bg-green-400 border border-white absolute inset-0 mb-0 mr-0 m-auto"></div>
+                    </div>
+                    <p class="text-gray-800 text-sm mx-3">Jane Doe</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer text-gray-600 icon icon-tabler icon-tabler-chevron-down" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" />
+                        <polyline points="6 9 12 15 18 9" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-600 mr-8 visible lg:hidden icon icon-tabler icon-tabler-menu" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" />
+            <line x1="4" y1="8" x2="20" y2="8" />
+            <line x1="4" y1="16" x2="20" y2="16" />
+        </svg>
+    </div>
+    <!-- Navigation ends -->
+    <div class="flex flex-no-wrap">
+        <!-- Sidebar starts -->
+        <!-- Remove class [ hidden ] and replace [ sm:flex ] with [ flex ] -->
+        <div class="hidden sm:flex w-64 h-full bg-white">
+            <ul class="bg-white py-6">
+                <li class="cursor-pointer p-4 text-white focus:bg-indigo-600 hover:bg-indigo-600 bg-indigo-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-grid" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" />
+                        <rect x="4" y="4" width="6" height="6" rx="1" />
+                        <rect x="14" y="4" width="6" height="6" rx="1" />
+                        <rect x="4" y="14" width="6" height="6" rx="1" />
+                        <rect x="14" y="14" width="6" height="6" rx="1" />
+                    </svg>
+                </li>
+                <li class="p-4 mt-4 cursor-pointer text-gray-800 text-sm leading-3 tracking-normal hover:text-indigo-500 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-puzzle" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" />
+                        <path d="M4 7h3a1 1 0 0 0 1 -1v-1a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0 -1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-1a2 2 0 0 0 -4 0v1a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h1a2 2 0 0 0 0 -4h-1a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1" />
+                    </svg>
+                </li>
+                <li class="p-4 mt-4 cursor-pointer text-gray-800 text-sm leading-3 tracking-normal hover:text-indigo-500 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-compass" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" />
+                        <polyline points="8 16 10 10 16 8 14 14 8 16" />
+                        <circle cx="12" cy="12" r="9" />
+                    </svg>
+                </li>
+                <li class="p-4 mt-4 cursor-pointer text-gray-800 text-sm leading-3 tracking-normal hover:text-indigo-500 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-code" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" />
+                        <polyline points="7 8 3 12 7 16" />
+                        <polyline points="17 8 21 12 17 16" />
+                        <line x1="14" y1="4" x2="10" y2="20" />
+                    </svg>
+                </li>
+            </ul>
+            <ul class="bg-gray-100 shadow-inner w-full pl-6 pt-10">
+                <li class="-mt-1 cursor-pointer text-indigo-500 text-sm leading-3 tracking-normal pl-2 py-2 font-bold hover:text-indigo-500 focus:text-indigo-500 focus:outline-none">
+                    Dashboard
+                </li>
+                <li class="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-4 pl-2 py-2 hover:text-indigo-500 flex items-center focus:text-indigo-500 focus:outline-none">
+                    Statistics
+                </li>
+                <li class="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-4 pl-2 py-2 hover:text-indigo-500 flex items-center focus:text-indigo-500 focus:outline-none">
+                    Forecasting
+                </li>
+                <li class="cursor-pointer text-gray-600 text-sm leading-3 tracking-normal mt-4 pl-2 py-2 hover:text-indigo-500 flex items-center focus:text-indigo-500 focus:outline-none">
+                    Comparables
+                </li>
+            </ul>
+        </div>
+        <!-- Sidebar ends -->
+        <!-- Remove class [ h-64 ] when adding a card block -->
+        <div class="container mx-auto py-10 h-64 md:w-4/5 w-11/12 px-6">
+            <!-- Remove class [ border-dashed border-2 border-gray-300 ] to remove dotted border -->
+            <div class="w-full h-full rounded">
+                <div class="my-6 mx-auto bg-white shadow p-8 rounded xl:w-6/12 lg:w-6/12 md:w-6/12 w-11/12">
+                    <div class="flex items-center pb-5">
+                        <div class="h-12 w-12">
+                            <img src="https://images.unsplash.com/photo-1505489435671-80a165c60816?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=531&q=80"
+                                alt="" class="rounded shadow h-full w-full object-cover" />
+                        </div>
+                        <div class="pl-3">
+                            <p class="text-lg font-bold text-gray-800">The Economist</p>
+                            <p class="text-yellow-400 text-sm">&#9733;&#9733;&#9733;&#9733;<span
+                                    class="text-gray-200">&#9733;</span></p>
+                        </div>
+                    </div>
+                    <p class="pb-5 text-sm leading-6 text-gray-600">
+                        The responsibility to communicate that information rests on the shoulders of the marketing and sales
+                        teams. Typically, marketing has a predominant role at the beginning of a potential sale therefore it
+                        is
+                        of the utmost
+                        importance.
+                    </p>
+                    <p class="pb-3 text-sm text-gray-800 font-medium">Contributions In</p>
+                    <div class="flex xl:w-2/3 lg:w-2/3 md:w-2/3 w-full">
+                        <p class="text-sm text-indigo-500 font-medium flex">
+                            <span class="pr-2 cursor-pointer">Home</span> <span>|</span><span
+                                class="px-2 cursor-pointer">Work</span> <span>|</span> <span
+                                class="px-2 cursor-pointer">Family</span> <span>|</span>
+                            <span class="px-2 cursor-pointer">Living</span>
+                        </p>
+                    </div>
+                </div>
+</div>
+</body>
+</html>

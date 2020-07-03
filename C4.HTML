@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screen-4</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+        <!-- Navigation starts -->
+        <div class="w-full mx-auto bg-white shadow">
+            <div class="container px-6 justify-between h-16 flex items-center lg:items-stretch mx-auto">
+                <div class="h-full flex items-center">
+                    <div class="mr-10 flex items-center">
+                        <svg id="logo" enable-background="new 0 0 300 300" height="44" viewBox="0 0 300 300" width="43" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g>
+                                <path fill="#5F7DF2" d="m234.735 35.532c-8.822 0-16 7.178-16 16s7.178 16 16 16 16-7.178 16-16-7.178-16-16-16zm0 24c-4.412 0-8-3.588-8-8s3.588-8 8-8 8 3.588 8 8-3.588 8-8 8zm-62.529-14c0-2.502 2.028-4.53 4.53-4.53s4.53 2.028 4.53 4.53c0 2.501-2.028 4.529-4.53 4.529s-4.53-2.027-4.53-4.529zm89.059 60c0 2.501-2.028 4.529-4.53 4.529s-4.53-2.028-4.53-4.529c0-2.502 2.028-4.53 4.53-4.53s4.53 2.029 4.53 4.53zm-40.522-5.459-88-51.064c-1.242-.723-2.773-.723-4.016 0l-88 51.064c-1.232.715-1.992 2.033-1.992 3.459v104c0 1.404.736 2.705 1.938 3.428l88 52.936c.635.381 1.35.572 2.062.572s1.428-.191 2.062-.572l88-52.936c1.201-.723 1.938-2.023 1.938-3.428v-104c0-1.426-.76-2.744-1.992-3.459zm-90.008-42.98 80.085 46.47-52.95 31.289-23.135-13.607v-21.713c0-2.209-1.791-4-4-4s-4 1.791-4 4v21.713l-26.027 15.309c-1.223.719-1.973 2.029-1.973 3.447v29.795l-52 30.727v-94.688zm0 198.707-80.189-48.237 51.467-30.412 24.723 14.539v19.842c0 2.209 1.791 4 4 4s4-1.791 4-4v-19.842l26.027-15.307c1.223-.719 1.973-2.029 1.973-3.447v-31.667l52-30.728v94.729z" />
+                            </g>
+                        </svg>
+                        <h3 class="text-base text-gray-800 font-bold tracking-normal leading-tight ml-3 hidden lg:block">The North</h3>
+                    </div>
+                    <ul class="pr-12 xl:flex items-center h-full hidden">
+                        <li class="cursor-pointer h-full flex items-center text-sm text-indigo-500 tracking-normal border-b-2 border-indigo-500">
+                            Dashboard
+                        </li>
+                        <li class="cursor-pointer h-full flex items-center text-sm text-gry-800 mx-10 tracking-normal">
+                            Products
+                        </li>
+                        <li class="cursor-pointer h-full flex items-center text-sm text-gry-800 mr-10 tracking-normal">
+                            Performance
+                        </li>
+                        <li class="cursor-pointer h-full flex items-center text-sm text-gray-800 tracking-normal">
+                            Deliverables
+                        </li>
+                    </ul>
+                </div>
+                <div class="h-full lg:flex items-center justify-end hidden">
+                    <div class="w-full h-full flex items-center">
+                        <div class="w-full pr-12 h-full flex items-center border-r">
+                            <div class="relative w-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-500 absolute ml-3 inset-0 m-auto icon icon-tabler icon-tabler-search" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <circle cx="10" cy="10" r="7" />
+                                    <line x1="21" y1="21" x2="15" y2="15" />
+                                </svg>
+                                <input class="border border-gray-100 focus:outline-none focus:border-indigo-500 w-56 rounded text-sm text-gray-500 bg-gray-100 pl-8 py-2" type="text" placeholder="Search" />
+                            </div>
+                        </div>
+                        <div class="w-full h-full flex">
+                            <div class="w-32 h-full flex items-center justify-center border-r">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="text-gray-600 icon icon-tabler icon-tabler-bell" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <path d="M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
+                                    <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
+                                </svg>
+                            </div>
+                            <div class="w-full flex items-center justify-end">
+                                <img class="rounded" src="https://images.unsplash.com/photo-1586548634342-04801afc8b13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=36&q=80" alt="logo" />
+                                <p class="text-gray-800 text-sm ml-2">Jane Doe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="visible lg:hidden icon icon-tabler icon-tabler-menu" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" />
+                    <line x1="4" y1="8" x2="20" y2="8" />
+                    <line x1="4" y1="16" x2="20" y2="16" />
+                </svg>
+            </div>
+        </div>
+      
+        <div class="my-6 lg:my-12 container px-6 mx-auto flex flex-col lg:flex-row items-start lg:items-center justify-between pb-4 border-b border-gray-300">
+            <div>
+                <h4 class="text-2xl font-bold leading-tight text-gray-800">User Profile</h4>
+                <ul class="flex flex-col md:flex-row items-start md:items-center text-gray-600 text-sm mt-3">
+                    <li class="flex items-center mr-3 mt-3 md:mt-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mr-2 icon icon-tabler icon-tabler-paperclip" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" />
+                            <path d="M15 7l-6.5 6.5a1.5 1.5 0 0 0 3 3l6.5 -6.5a3 3 0 0 0 -6 -6l-6.5 6.5a4.5 4.5 0 0 0 9 9 l6.5 -6.5" />
+                        </svg>
+                        <span>Active</span>
+                    </li>
+                    <li class="flex items-center mr-3 mt-3 md:mt-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mr-2 icon icon-tabler icon-tabler-trending-up" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" />
+                            <polyline points="3 17 9 11 13 15 21 7" />
+                            <polyline points="14 7 21 7 21 14" />
+                        </svg>
+                        <span> Trending</span>
+                    </li>
+                    <li class="flex items-center mt-3 md:mt-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mr-2 icon icon-tabler icon-tabler-plane-departure" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" />
+                            <path d="M15 12h5a2 2 0 0 1 0 4h-15l-3 -6h3l2 2h3l-2 -7h3z" transform="rotate(-15 12 12) translate(0 -1)" />
+                            <line x1="3" y1="21" x2="21" y2="21" />
+                        </svg>
+                        <span>Started on 29 Jan 2020</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="mt-6 lg:mt-0">
+                <button class="mr-3 bg-gray-200 hover:bg-gray-300 transition duration-150 ease-in-out focus:outline-none rounded text-indigo-500 px-5 py-2 text-sm">
+                    Back
+                </button>
+                <button class="transition duration-150 ease-in-out hover:bg-indigo-600 focus:outline-none border bg-indigo-500 rounded text-white px-8 py-2 text-sm">
+                    Edit Profile
+                </button>
+            </div>
+        </div>
+
+        
+        <div class="container w-11/12 sm:w-9/12 mx-auto">
+            <!-- Code block starts -->
+            <div class="flex items-center justify-between">
+                    <div class="container mx-auto w-11/12 md:w-2/3 max-w-lg">
+                        <div class="relative py-8 px-8 md:px-16 bg-white shadow-md rounded border border-gray-400">
+                            <div class="w-full flex justify-center text-green-400 mb-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-check" width="56" height="56" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <circle cx="12" cy="12" r="9" />
+                                    <path d="M9 12l2 2l4 -4" />
+                                </svg>
+                            </div>
+                            <h1 class="text-center text-gray-800 font-lg font-bold tracking-normal leading-tight mb-4">Payment Processing Successful</h1>
+                            <p class="mb-5 text-sm text-gray-600 text-center font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Check the actions below for more details.</p>
+                            <div class="flex items-center justify-center w-full">
+                                <button class="transition duration-150 ease-in-out hover:bg-indigo-600 hover:border-indigo-700 border bg-indigo-500 rounded text-white px-4 sm:px-8 py-2 text-xs sm:text-sm">Manage Plan</button>
+                                <button class="ml-3 bg-gray-100 transition duration-150 text-gray-600 ease-in-out hover:border-gray-400 hover:bg-gray-300 border rounded px-4 sm:px-8 py-2 text-xs sm:text-sm">Cancel</button>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="cursor-pointer absolute top-0 right-0 mt-4 mr-5 text-gray-400 icon icon-tabler icon-tabler-x" width="20" height="20" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" />
+                                <line x1="18" y1="6" x2="6" y2="18" />
+                                <line x1="6" y1="6" x2="18" y2="18" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- Code block ends -->
+            </div>
+        </div>
+
+        </body>
+</html>
